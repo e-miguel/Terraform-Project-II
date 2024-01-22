@@ -112,15 +112,15 @@ variable "ec2_key_pair_name" {
   type          = string
 }
 
-# # route 53 variables
-# variable "domain_name" {
-#   default       = "blueastra.co.uk"
-#   description   = "domain name"
-#   type          = string
-# }
+# route 53 variables
+variable "domain_name" {
+  default       = "pinkastra.co.uk"
+  description   = "domain name"
+  type          = string
+}
 
-# variable "record_name" {
-#   default       = "www"
-#   description   = "sub domain name"
-#   type          = string
-# }
+variable "record_name" {
+  default       = "www"
+  description   = "sub domain name"
+  type          = string
+}
