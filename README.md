@@ -46,5 +46,3 @@ SHOP, a leading E-Commerce company needs to handle a surge in traffic on their u
 ![image](https://github.com/e-miguel/Terraform-Project-II/assets/134418850/fbcc6573-6828-4dde-b7c1-56a53f74046d)
 
 # Thank you for following along.
-![image](https://github.com/e-miguel/Terraform-Project-II/assets/134418850/e84f3019-d259-47d2-a1d5-d17bd225433a)
-
