@@ -87,30 +87,30 @@ variable "operator_email" {
   type          = string
 }
 
-# # auto scaling group variables
-# variable "launch_template_name" {
-#   default       = "dev-launch-template"
-#   description   = "name of the launch template"
-#   type          = string
-# }
+# auto scaling group variables
+variable "launch_template_name" {
+  default       = "dev-launch-template"
+  description   = "name of the launch template"
+  type          = string
+}
 
-# variable "ec2_image_id" {
-#   default       = "ami-0a3836ba4c1c577cf"
-#   description   = "id of the ami"
-#   type          = string
-# }
+variable "ec2_image_id" {
+  default       = "ami-0fc5f2ed85e407150"
+  description   = "id of the ami"
+  type          = string
+}
 
-# variable "ec2_instance_type" {
-#   default       = "t2.micro"
-#   description   = "ec2 instance type"
-#   type          = string
-# }
+variable "ec2_instance_type" {
+  default       = "t2.micro"
+  description   = "ec2 instance type"
+  type          = string
+}
 
-# variable "ec2_key_pair_name" {
-#   default       = "pemcedarkey"
-#   description   = "name of the ec2 key pair"
-#   type          = string
-# }
+variable "ec2_key_pair_name" {
+  default       = "Pem-Halsey-Key"
+  description   = "name of the ec2 key pair"
+  type          = string
+}
 
 # # route 53 variables
 # variable "domain_name" {
