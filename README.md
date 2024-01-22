@@ -1,6 +1,6 @@
 # Terraform-Project-II
-Host a Dynamic Ecommerce Website on AWS with Terraform
-Part I of deploying a dynamic website on AWS with Terraform
+- Host a Dynamic Ecommerce Website on AWS with Terraform
+- Part I of deploying a dynamic website on AWS with Terraform
 
 # Tech Stack
 1. AWS (VPC with public and private subnets, NAT gateways, security groups, RDS, ALB, SNS, ASG, and route 53. In addition to terraform, you will also learn how to use DevOps tools such as GitHub, Git, visual studio code, and AWS CLI)
