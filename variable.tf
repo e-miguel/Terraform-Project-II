@@ -80,12 +80,12 @@ variable "ssl_certificate_arn" {
   type          = string
 }
 
-# # sns topic variables
-# variable "operator_email" {
-#   default       = "eugeniomiguelmendoza@gmail.com"
-#   description   = "a valid email address"
-#   type          = string
-# }
+# sns topic variables
+variable "operator_email" {
+  default       = "e32cloud@gmail.com"
+  description   = "a valid email address"
+  type          = string
+}
 
 # # auto scaling group variables
 # variable "launch_template_name" {
