@@ -73,12 +73,12 @@ variable "multi_az_deployment" {
   type          = bool
 }
 
-# # application load balancer variables
-# variable "ssl_certificate_arn" {
-#   default       = "arn:aws:acm:us-east-1:776878088985:certificate/c4b9c5c6-048b-4055-9252-1d15f79abbc3"
-#   description   = "ssl certificate arn"
-#   type          = string
-# }
+# application load balancer variables
+variable "ssl_certificate_arn" {
+  default       = "arn:aws:acm:us-east-1:614990794914:certificate/4eb9f74c-be80-4c8f-9708-e0d5735da5d5"
+  description   = "ssl certificate arn"
+  type          = string
+}
 
 # # sns topic variables
 # variable "operator_email" {
