@@ -48,30 +48,30 @@ variable "ssh_location" {
   type          = string
 }
 
-# # rds variables
-# variable "database_snapshot_identifier" {
-#   default       = "arn:aws:rds:us-east-1:776878088985:snapshot:fleetcart-final-snapshot"
-#   description   = "database snapshot arn"
-#   type          = string
-# }
+# rds variables
+variable "database_snapshot_identifier" {
+  default       = "arn:aws:rds:us-east-1:614990794914:snapshot:fleetcart-final-snapshot"
+  description   = "database snapshot arn"
+  type          = string
+}
 
-# variable "database_instance_class" {
-#   default       = "db.t2.micro"
-#   description   = "the database instance type"
-#   type          = string
-# }
+variable "database_instance_class" {
+  default       = "db.t2.micro"
+  description   = "the database instance type"
+  type          = string
+}
 
-# variable "database_instance_identifier" {
-#   default       = "dev-rds-db"
-#   description   = "the database instance identifier"
-#   type          = string
-# }
+variable "database_instance_identifier" {
+  default       = "dev-rds-db"
+  description   = "the database instance identifier"
+  type          = string
+}
 
-# variable "multi_az_deployment" {
-#   default       = false
-#   description   = "create a standby db instance"
-#   type          = bool
-# }
+variable "multi_az_deployment" {
+  default       = false
+  description   = "create a standby db instance"
+  type          = bool
+}
 
 # # application load balancer variables
 # variable "ssl_certificate_arn" {
