@@ -46,6 +46,6 @@ SHOP, a leading E-Commerce company needs to handle a surge in traffic on their u
 ![image](https://github.com/e-miguel/Terraform-Project-II/assets/134418850/fbcc6573-6828-4dde-b7c1-56a53f74046d)
 
 # Conclusion
-Thank you for following along and I hope you find this helpful in your cloud journey.
-For complete guide go to my portfolio below where I will walk you through each steps to complete my project.
-https://aws.plainenglish.io/project-1-host-a-dynamic-ecommerce-website-on-aws-with-terraform-ea93ef2ba15f
+- Thank you for following along and I hope you find this helpful in your cloud journey.
+- For complete guide go to my portfolio below where I will walk you through each steps to complete my project.
+- https://aws.plainenglish.io/project-1-host-a-dynamic-ecommerce-website-on-aws-with-terraform-ea93ef2ba15f
