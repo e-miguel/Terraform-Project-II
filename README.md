@@ -47,5 +47,5 @@ SHOP, a leading E-Commerce company needs to handle a surge in traffic on their u
 
 # Conclusion
 - Thank you for following along and I hope you find this helpful in your cloud journey.
-- For complete guide go to my portfolio below where I will walk you through each steps to complete my project.
+- For complete guide I published my project on Medium. Go to the link below so I can walk you through each steps.
 - https://aws.plainenglish.io/project-1-host-a-dynamic-ecommerce-website-on-aws-with-terraform-ea93ef2ba15f
